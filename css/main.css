@@ -54,7 +54,8 @@ font-family: 'Rubik', sans-serif;
   left: -227px;
   width: 43%;
   height: 88%;
-  background-color: hsl(264, 100%, 61%);
+  background: rgb(206,65,255);
+  background: linear-gradient(180deg, rgba(206,65,255,1) 0%, rgba(173,62,255,1) 50%, rgba(143,60,252,1) 100%);
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
@@ -91,7 +92,7 @@ font-size: 35px;
   position: relative;
   width: 300px;
   height: fit-content;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
@@ -104,12 +105,13 @@ font-size: 35px;
   display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #993cfe;
+    background: rgb(206,65,255);
+    background: linear-gradient(180deg, rgba(206,65,255,1) 0%, rgba(173,62,255,1) 50%, rgba(143,60,252,1) 100%);
     padding: 25px 10px 10px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 .header-app::before {
   content: "";
@@ -119,11 +121,12 @@ font-size: 35px;
   width: 50%;
   height: 31%;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 25px;
   transform: translateX(-50%);
 }
 .content {
   display: flex;
+  align-items: center;
 }
 .text-app ,
 .content {
@@ -158,8 +161,8 @@ i {
   width: 280px;
   padding-top: 1px;
   padding-bottom: 10px;
-  border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 .chat-box .chat-on-left p {
   background-color: #ece4f3;
@@ -167,7 +170,7 @@ i {
   width: 60%;
   padding: 5px 10px 5px 10px;
   line-height: 1.5;
-  border-radius: 15px;
+  border-radius: 25px;
   color: hsl(276, 55%, 52%);
 
 }
@@ -188,7 +191,7 @@ i {
   width: fit-content;
   padding: 5px 10px 5px 10px;
   line-height: 1.5;
-  border-radius: 15px;
+  border-radius: 25px;
   color: hsl(276, 55%, 52%);
   margin-left: 84px;
 }
@@ -196,10 +199,11 @@ i {
   margin-left: 170px;
 }
 .price {
-  background-color: #993CFE;
+  background: rgb(206,65,255);
+background: linear-gradient(90deg, rgba(206,65,255,1) 0%, rgba(173,62,255,1) 50%, rgba(143,60,252,1) 100%);
     display: flex;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 25px;
     width: 80%;
     justify-content: space-around;
     margin-bottom: 10px;
